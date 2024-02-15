@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #eef5ff; */
+    background-color: aquamarine;
+  }
+  /*.main{
+      width: 500px;
+      height: 20px;
+      background-color: pink;
+  }*/
+  .bt{
+      position: absolute;
+      top: -100px;
+      margin-top: 20%;
+  }
+  .bt button{
+      margin: auto;
+      width: 300px;
+      height: 100px;
+      border-color: brown;
+      transition: 0.5s;
+      display: block;
+      margin-bottom: 15%;
+      font-size: 1.3rem;
+      /* display: flex;
+      margin-bottom: 70px; */
+  }
+  .bt button:hover{
+    width: 350px;
+    height: 100px;
+    border-color: brown;
+    color: white;
+    background-color: brown;
+}
+  .tit {
+      
+    background: aquamarine;
+    /* font-size: 2vmin; */
+    font-size: 1.2rem;
+    font-family: JetBrains Mono, monospace;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: #4c00ff;
+  }
+  
+  .string {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    animation: move 4s infinite;
+  }
+  
+  .greeting {
+    position: relative;
+    top: 7vmin;
+    animation: white-out 5s infinite;
+  }
+  
+  .closure::after {
+    content: '';
+    position: absolute;
+    height: 25vmin;
+    width: 50vmin;
+    background: aquamarine;
+    transform: translate(-50vmin, -24.5vmin);
+  }
+  
+  .closure::before {
+    content: '';
+    position: absolute;
+    height: 25vmin;
+    width: 40vmin;
+    background: aquamarine;
+    transform: translate(-40vmin, 5vmin);
+  }
+  
+  .en {
+    color: #ff0000;
+  }
+  
+  .es {
+    color: rgb(174, 0, 255);
+  }
+  
+  .de {
+    color: #0dff00;
+  }
+  
+  .it {
+    color: #ff00fb;
+  }
+  
+  @keyframes move {
+    20% {
+      transform: translatey(-6.8vmin);
+      opacity: 1;
+    }
+    40% {
+      transform: translatey(-13vmin);
+    }
+    60% {
+      transform: translatey(-18.5vmin);
+      overflow-y: none;
+    }
+    80% {
+        transform: translatey(-24.5vmin);
+      }
+  }

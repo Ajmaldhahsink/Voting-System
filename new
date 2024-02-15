@@ -1,0 +1,2 @@
+<button onclick="window.location.href='student.html';">Student</button>
+<button onclick="window.location.href='staff/staff.html';">Admin</button>
